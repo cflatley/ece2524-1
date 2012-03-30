@@ -19,5 +19,5 @@ clean:
 	-rm *.o *.d *~
 
 archive:
-	tar -cvf theprogram.tar ${SRC}
+	tar -cvzf week11.tar.gz *.h *.cpp Makefile
 
